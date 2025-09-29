@@ -8,7 +8,7 @@ const PokeCard: React.FC<PokeCardProps> = ({
   description,
   loading
 }) => {
-  console.log(imageUrl)
+
   return (
     <div className="bg-white rounded-xl shadow-lg flex flex-col items-center p-8 mb-6 w-full max-w-xs mx-auto">
       {(loading || !imageUrl) ? (
